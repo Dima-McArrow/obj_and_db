@@ -4,10 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="./scripts/script.js" defer></script>
   </head>
   <body>
-    <h1>Index</h1>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+    <main class="main">
+      <section class="one" id="one">
+        <h1>Index</h1>
+        <div class="wrapper">
+          <form action="" class="form" id="form">
+            <div class="name_wrapper">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="title_wrapper">
+              <label for="title">Title</label>
+              <input type="text" id="title" name="title" />
+            </div>
+            <button type="submit" class="submit" id="submit">submit</button>
+          </form>
+        </div>
+      </section>
+      <section class="two" id="two">
+        <h1>Lo</h1>
+        <div class="wrapper" id="display"></div>
+      </section>
+      <section class="three" id="three">
+        <h1>Three</h1>
+        <div class="wrapper">
+          <button class="get" id="get">Get</button>
+          <div class="local-storage_wrapper"></div>
+        </div>
+      </section>
+      <section class="four" id="four">
+        <button type="button" class="clear" id="clear">clear all</button>
+      </section>
+    </main>
   </body>
 </html>
